@@ -1,6 +1,6 @@
 # UnsupervisedNaturalLanguageProcessing
 Clusterised natural language processing package
-Applications : 
+### Applications : 
 - text analysis based algorithmic trading strategies
 - text sentiment analysis based trading strategies
 
