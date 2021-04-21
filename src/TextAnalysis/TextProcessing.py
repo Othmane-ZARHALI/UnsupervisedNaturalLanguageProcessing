@@ -6,6 +6,7 @@
 
 #Package third parties
 import json
+import matplotlib.pyplot as plt
 
 
 class TextRegrouper():
@@ -69,7 +70,31 @@ class TextRegrouper():
             synthesis_texts[key] = self.OccurenceTextSynthesis(regroupped_texts[key],threashold_occurence,word_length)
         return dict((k, v) for k, v in synthesis_texts.items() if list(v.values()) != [])
 
+class TextResultRepresentation():
+    def __init__(self,TextSynthesis):
+        self.TextSynthesis = TextSynthesis
 
+    def GraphEmbedding(self):
+        key_words = []
+        for key in self.TextSynthesis :
+            key_words+=list(self.TextSynthesis[key].keys())
+        key_words_set = set(key_words)
+        output_dict = dict()
+        for x in key_words_set:
+            output_dict[x] = set()
+        for label in list(self.TextSynthesis.keys()):
+            for x in key_words_set:
+                if x in list(self.TextSynthesis[label].keys()):
+                    output_dict[x] = output_dict[x].union(str(label))
+        return output_dict
 
+    def ImportanceRepresentation(self):
+        graph_embedded_synthesis = self.GraphEmbedding()
+        words_synthesis = list(graph_embedded_synthesis.keys())
+        words_Importance = [len(graph_embedded_synthesis[word]) for word in words_synthesis]
+        plt.style.use('ggplot')
+        plt.barh(words_synthesis, words_Importance, color='green',)
+        plt.title("Synthesis - Word importance")
+        plt.show()
 
 
