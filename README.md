@@ -2,7 +2,7 @@
 Clusterised natural language processing package
 Applications : 
 - text analysis based algorithmic trading strategies
-- text sentiment analysis
+- text sentiment analysis based trading strategies
 
 ## Description
 Construction of a parcimonious and accurate automatic text understanding
