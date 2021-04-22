@@ -15,10 +15,14 @@ Construction of a parcimonious and accurate automatic text understanding
 
 ## Results 
 We are able to clusterise accuratly the text regions
-![Clustering layer results](Results/ClusteringResults.png)
 
-![plot](https://github.com/Othmane-ZARHALI/UnsupervisedNaturalLanguageProcessing/Results/blob/ClusteringResults.png?raw=true)
+![Clustering layer results](Results/ClusteringResults.png)
 
 To enable a parcimonious automatic file understanding in each relevant cluster
 
+![Represented data](Results/outputDataStructure.png)
+
 And then to synthesize the overall information using a hierarchical criterion
+
+
+![Text synthesis](Results/TextSynthesis.png)
