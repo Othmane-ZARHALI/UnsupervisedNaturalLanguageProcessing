@@ -20,7 +20,8 @@ We are able to clusterise accuratly the text regions on a sample financial text
 
 To enable a parcimonious automatic file understanding in each relevant cluster
 
-![Represented data](Results/outputDataStructure.png){height="50%" width="50%"}
+![Represented data](Results/outputDataStructure.png)
+
 
 And then to synthesize the overall information using a hierarchical criterion
 
