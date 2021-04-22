@@ -74,7 +74,7 @@ class TextResultRepresentation():
     def __init__(self,TextSynthesis):
         self.TextSynthesis = TextSynthesis
 
-    def GraphEmbedding(self):
+    def AdjacencyEmbedding(self):
         key_words = []
         for key in self.TextSynthesis :
             key_words+=list(self.TextSynthesis[key].keys())
@@ -89,7 +89,7 @@ class TextResultRepresentation():
         return output_dict
 
     def ImportanceRepresentation(self):
-        graph_embedded_synthesis = self.GraphEmbedding()
+        graph_embedded_synthesis = self.AdjacencyEmbedding()
         words_synthesis = list(graph_embedded_synthesis.keys())
         words_Importance = [len(graph_embedded_synthesis[word]) for word in words_synthesis]
         plt.style.use('ggplot')
