@@ -11,4 +11,4 @@ Construction of a parcimonious and accurate automatic text understanding
 - Json data processing
 - Text clustering layer
 - Text processing layer
-- Unit testing unit
+- Unit testing layer
