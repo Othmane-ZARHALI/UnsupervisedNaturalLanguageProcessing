@@ -12,3 +12,11 @@ Construction of a parcimonious and accurate automatic text understanding
 - Text clustering layer
 - Text processing layer
 - Unit testing layer
+
+## Results 
+We are able to clusterise accuratly the text regions
+
+
+To enable a parcimonious automatic file understanding in each relevant cluster
+
+And then to synthesize the overall information using a hierarchical criterion
