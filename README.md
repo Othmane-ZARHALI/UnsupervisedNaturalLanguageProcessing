@@ -14,7 +14,7 @@ Construction of a parcimonious and accurate automatic text understanding
 - Unit testing layer
 
 ## Results 
-We are able to clusterise accuratly the text regions
+We are able to clusterise accuratly the text regions on a sample financial text
 
 ![Clustering layer results](Results/ClusteringResults.png)
 
