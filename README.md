@@ -1,4 +1,4 @@
-# UnsupervisedNaturalLanguageProcessing
+# Unsupervised Natural Language Processing
 Clusterised natural language processing package
 ### Applications : 
 - text analysis based algorithmic trading strategies
