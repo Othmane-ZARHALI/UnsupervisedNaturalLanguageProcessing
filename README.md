@@ -15,7 +15,7 @@ Construction of a parcimonious and accurate automatic text understanding
 
 ## Results 
 We are able to clusterise accuratly the text regions
-
+![alt text](https://github.com/Othmane-ZARHALI/UnsupervisedNaturalLanguageProcessing/Results/ClusteringResults.png?raw=true)
 
 To enable a parcimonious automatic file understanding in each relevant cluster
 
